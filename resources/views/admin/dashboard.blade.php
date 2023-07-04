@@ -6,7 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ADP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     @yield('styles')
+   
+   
+
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -214,14 +219,51 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/manage/blogs" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
-                                    Simple Link
+                                    Blogs
                                     <span class="right badge badge-danger">New</span>
                                 </p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="/manage/events" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    Events
+                                    <span class="right badge badge-danger">New</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/manage/features" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    Features
+                                    <span class="right badge badge-danger">New</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/manage/portfolios" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    Portfolios
+                                    <span class="right badge badge-danger">New</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/manage/services" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    services
+                                    <span class="right badge badge-danger">New</span>
+                                </p>
+                            </a>
+                        </li>
+
                     </ul>
                 </nav>
 
@@ -230,7 +272,7 @@
         </aside>
 
         <div class="content-wrapper">
-            @yield('content')
+            @yield('content') 
         </div>
 
 
